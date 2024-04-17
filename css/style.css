@@ -78,17 +78,15 @@ p{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
     max-height: 0;
     overflow: hidden;
     color: #8B6990;
-    margin: 24px;
+    margin: 24px 0;
 }
 
 hr{
+    border: 1px solid #F8EEFF;
     margin: 24px 0;
-    height: 1px;
-    color: #F8EEFF;
 }
 
 @media (max-width: 566px) {
@@ -121,6 +119,13 @@ hr{
         font-weight: 600;
         line-height: 18.77px;
         text-align: left;
+        width: 70%;
     
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+
     }
 }
