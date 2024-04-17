@@ -1,0 +1,126 @@
+/* colors : 
+pink: #AD28EB
+Dark Purple: #301534
+Pale Purple: #8B6990
+Light Pink: #F8EEFF
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+    background-color: #F8EEFF;
+}
+
+header{
+    height: 320px; 
+    background-image: url("../images/bg.png");
+}
+main{
+    margin-top: -160px;
+    width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 167px;
+    padding: 40px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.hero img{
+    width: 40px;
+    height: 40px;
+}
+h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65.69px;
+    text-align: left;
+}
+.accoord-bar{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    transition: all 0.5s;
+    margin-bottom: 24px;
+}
+.accoord-bar h2{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.11px;
+    text-align: left;
+
+}
+.accoord-bar:hover{
+    color: #AD28EB;
+}
+.accoord-bar .mns{
+    display: none;
+}
+p{
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-height: 0;
+    overflow: hidden;
+    color: #8B6990;
+    margin: 24px;
+}
+
+hr{
+    margin: 24px 0;
+    height: 1px;
+    color: #F8EEFF;
+}
+
+@media (max-width: 566px) {
+    header{
+        height: 232px;
+        background-image: url("../images/bg.png");
+    }
+    main {
+        margin-top: -110px;
+        width: 92%;
+        padding: 24px;    
+    }
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 37.54px;
+        text-align: left;
+
+    }
+    .accoord-bar{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        align-items: center;
+        transition: all 0.5s;
+        margin-bottom: 24px;
+    }
+    .accoord-bar h2{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18.77px;
+        text-align: left;
+    
+    }
+}
